@@ -1,0 +1,113 @@
+@import '../../../styles/variables.scss';
+
+.footer {
+  padding-bottom: 54px;
+  margin-top: 150px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  //for mobile
+  // flex-wrap: wrap;
+  row-gap: 38px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+}
+.form-wrapper {
+  //for mobile
+  // width: 100%;
+}
+.form {
+  margin-top: 26px;
+  position: relative;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 575px;
+  min-width: 100%;
+  background-color: $color-gray;
+  border-bottom: 1px solid $color-black;
+  padding-bottom: 10px;
+}
+
+.button-form {
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background-color: $color-gray;
+  padding: 4px;
+  top: 0;
+  right: 0px;
+  font-family: 'Abhaya Libre';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -1%;
+}
+
+.form-text {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  letter-spacing: -1%;
+}
+
+.form-link {
+  display: inline-block;
+  margin-left: 4px;
+  color: $color-black;
+  border-bottom: 2px solid $color-black;
+}
+
+.wrapper-list {
+  display: flex;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 54px;
+}
+
+.link {
+  margin-top: 6px;
+  display: block;
+  border-bottom: 2px solid $color-black;
+  color: $color-black;
+}
+.text {
+  text-align: right;
+  max-width: 682px;
+  margin-left: 164px;
+}
+
+.max-w-contact {
+  max-width: 64px;
+}
+
+.max-w-career {
+  max-width: 52px;
+}
+.max-w-playlist {
+  max-width: 69px;
+}
+.max-w-films {
+  max-width: 40px;
+}
+.max-w-terms {
+  max-width: 48px;
+}
+
+.max-w-shopping {
+  max-width: 74px;
+}
+
+.max-w-faqs {
+  max-width: 36px;
+}
