@@ -1,0 +1,35 @@
+.constantin {
+  margin-top: 150px;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.wrapper-text {
+  margin-left: auto;
+  max-width: 922px;
+  margin-top: 3px;
+}
+
+.text-right {
+  margin-left: auto;
+  max-width: 730px;
+}
+
+.list {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-text {
+  margin-top: 15px;
+  text-align: center;
+}

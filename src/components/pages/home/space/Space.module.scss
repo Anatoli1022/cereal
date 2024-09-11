@@ -1,0 +1,53 @@
+.space {
+  margin-top: 150px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+
+  text-align: left;
+}
+
+.wrapper-string {
+  max-width: 1228px;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.wrapper-text {
+  margin-left: auto;
+  max-width: 922px;
+  margin-top: 30px;
+}
+
+.title-min {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.image {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+.subtitle {
+  margin-top: 18px;
+}
+
+.text-right {
+  max-width: 726px;
+  margin-left: auto;
+}
+
+.text-margin {
+  margin-top: 3px;
+}
+
+.sub-text {
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
