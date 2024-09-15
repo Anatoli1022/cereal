@@ -1,0 +1,51 @@
+.header {
+  padding-top: 26px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:nth-last-child(2) {
+    margin-right: -110px;
+  }
+}
+
+.button {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  max-width: 100px;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    top: 12px;
+    left: 20px;
+    height: 3px;
+    background: #1a1a1a;
+  }
+  &::after {
+    position: absolute;
+    width: 100px;
+    top: 6px;
+    left: 0;
+    height: 3px;
+    background: #1a1a1a;
+    content: '';
+  }
+}

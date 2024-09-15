@@ -1,11 +1,49 @@
-.hero {
-  padding-top: 200px;
+.hero-wrapper {
+  position: relative;
+}
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 104px;
+  font-weight: 600;
+  z-index: 2;
+  top: 40%;
+  text-transform: lowercase;
 }
 .wrapper-text {
   margin-left: auto;
   max-width: 922px;
-  margin-top: 30px;
+
+  &:first-child {
+    top: 30px;
+    position: absolute;
+    right: 0;
+  }
+
+  &:last-child {
+    margin-top: -232px;
+  }
 }
+
+.wrapper-sub-text {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.subtext-right {
+  margin-left: auto;
+  max-width: 700px;
+}
+
+.subtitle {
+  display: inline-block;
+  padding-right: 15px;
+}
+
 .title-min {
   font-size: 18px;
   font-weight: 700;
@@ -16,6 +54,6 @@
 }
 
 .text-right {
-  max-width: 726px;
   margin-left: auto;
+  max-width: 760px;
 }

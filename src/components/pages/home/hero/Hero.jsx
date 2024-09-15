@@ -73,10 +73,34 @@ const Hero = () => {
 
   return (
     <section className={cx('hero')}>
-      <div className={cx('container')}>
+      <div className={cx('container', 'hero-wrapper')}>
+        <div className={cx('wrapper-text')}>
+          <p className={cx('subtext-right')}>
+            DESIGN MASTERPIECES ABOUND: A DESK BY THE NOW-FABLED CUBAN-
+            <br />
+            BORN DESIGNER CLARA PORSET SITS NEAR A THICK WOOLLEN RUG.
+          </p>
+          <p>
+            MADE BY THE FAMILY WHO WOVE FOR THE MEXICAN ARCHITECT LUÍS BARRAGÁN.
+            her as I look around, seems as much <br />
+            like a gallery as a home. Stubbing her cigarette in an ashtray
+            beneath
+          </p>
+          <div className={cx('wrapper-sub-text')}>
+            <div>
+              <h4 className={cx('subtitle')}>PHOTOS</h4>
+              <span>Maureen M. Evans</span>
+            </div>
+            <div>
+              <h4 className={cx('subtitle')}>WORDS</h4>
+              <span>Louis Harnett O’Meara</span>
+            </div>
+          </div>
+        </div>
+        <h1 className={cx('title')}>Matter of Discovery</h1>
         <motion.svg
           width="960.005371"
-          height="1021.496094"
+          height="1018.496094"
           viewBox="0 0 960.005 1021.5"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
