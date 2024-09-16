@@ -1,3 +1,5 @@
+@import '../../../../styles/variables.scss';
+
 .constantin {
   margin-top: 150px;
 }
@@ -13,11 +15,17 @@
   margin-left: auto;
   max-width: 922px;
   margin-top: 3px;
+  @include md-down {
+    max-width: 574px;
+  }
 }
 
 .text-right {
   margin-left: auto;
   max-width: 730px;
+  @include md-down {
+    max-width: 398px;
+  }
 }
 
 .list {
@@ -27,6 +35,10 @@
   row-gap: 28px;
   align-items: center;
   justify-content: center;
+}
+
+.image {
+  width: 100%;
 }
 
 .image-text {

@@ -1,31 +1,60 @@
+@import '../../../../styles/variables.scss';
+
 .sometimes {
   margin-top: 150px;
+  @include md-down {
+    margin-top: 100px;
+  }
 }
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
 
+  @include md-down {
+    font-size: 20px;
+  }
+}
 .wrapper-string {
   max-width: 946px;
   display: flex;
   margin-top: 12px;
   justify-content: space-between;
+  @include md-down {
+    margin-top: 10px;
+    max-width: 770px;
+  }
 }
 
 .wrapper-text {
   margin-left: auto;
   max-width: 922px;
   margin-top: 24px;
+  @include md-down {
+    max-width: 490px;
+  }
 }
 .title-min {
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
+  @include md-down {
+    font-size: 16px;
+  }
 }
 .text-right {
   max-width: 726px;
   margin-left: auto;
+  @include md-down {
+    max-width: 398px;
+  }
 }
 
 .text-margin {
   margin-top: 3px;
+  @include md-down {
+    margin-top: 0;
+  }
 }
 
 .image {
@@ -37,4 +66,7 @@
 .image-text {
   margin-top: 15px;
   text-align: center;
+  @include md-down {
+    margin-top: 10px;
+  }
 }

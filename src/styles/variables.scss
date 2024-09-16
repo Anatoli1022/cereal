@@ -3,8 +3,6 @@
 $color-black: rgb(26, 26, 26);
 $color-gray: rgb(233, 233, 233);
 
-
-
 $color-primary-hover: '';
 $color-accent-primary-hover: '';
 $color-accent-secondary-hover: '';
@@ -38,7 +36,31 @@ $line-height-xs: '';
 $transition-base: 0.3s;
 
 // Breakpoints
-$breakpoint-lg-down: 1280px - 0.02px;
-$breakpoint-md-down: 1024px - 0.02px;
-$breakpoint-sm-down: 768px - 0.02px;
-$breakpoint-xs-down: 479px - 0.02px;
+$breakpoint-lg-down: 1279px;
+$breakpoint-md-down: 1023px;
+$breakpoint-sm-down: 767px;
+$breakpoint-xs-down: 413px;
+
+@mixin lg-down {
+  @media (max-width: #{$breakpoint-lg-down}) {
+    @content;
+  }
+}
+
+@mixin md-down {
+  @media (max-width: #{$breakpoint-md-down}) {
+    @content;
+  }
+}
+
+@mixin sm-down {
+  @media (max-width: #{$breakpoint-sm-down}) {
+    @content;
+  }
+}
+
+@mixin xs-down {
+  @media (max-width: #{$breakpoint-xs-down}) {
+    @content;
+  }
+}
