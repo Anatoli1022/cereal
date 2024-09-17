@@ -34,9 +34,9 @@ const Layout = () => {
   useEffect(() => {
     // Проверяем, если текущий путь равен '/home', заменяем его на '/understanding'
     if (location.pathname === '/') {
-      setLoc('/understanding');
+      setLoc('https://inner-cereal.vercel.app/understanding');
     } else if (location.pathname === '/understanding') {
-      setLoc('/');
+      setLoc('https://inner-cereal.vercel.app/');
     } else {
       setLoc(location.pathname);
     }
@@ -73,6 +73,7 @@ const Layout = () => {
           }}
           allow='fullscreen'
           src={`${loc}`}
+          loading='lazy'
           sandbox='allow-same-origin allow-scripts'
           scrolling='no'
         ></iframe>
