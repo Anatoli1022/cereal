@@ -27,6 +27,8 @@ const Layout = () => {
 
     // Устанавливаем начальный размер
     updateBodySize();
+
+    window.addEventListener('load', updateBodySize);
   }, []);
 
   useEffect(() => {
