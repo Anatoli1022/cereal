@@ -7,9 +7,10 @@
 .footer-container {
   display: flex;
   justify-content: space-between;
-  //for mobile
-  // flex-wrap: wrap;
   row-gap: 38px;
+  @include md-down {
+    flex-wrap: wrap;
+  }
 }
 .title {
   font-size: 24px;
@@ -18,8 +19,9 @@
   letter-spacing: 0%;
 }
 .form-wrapper {
-  //for mobile
-  // width: 100%;
+  @include md-down {
+    width: 100%;
+  }
 }
 .form {
   margin-top: 26px;
@@ -48,6 +50,10 @@
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -1%;
+  @include md-down {
+    top: -2px;
+    padding: 2px;
+  }
 }
 
 .form-text {

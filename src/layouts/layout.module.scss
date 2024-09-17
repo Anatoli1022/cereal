@@ -1,0 +1,18 @@
+.home {
+  position: relative;
+  //test styles
+  max-width: 2060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0;
+  user-select: none;
+  z-index: -1;
+  opacity: 0.6;
+  filter: grayscale(100%) blur(0.8rem);
+}

@@ -4,6 +4,7 @@
 
 .header-container {
   position: relative;
+  z-index: 3;
 }
 
 .navigation {
@@ -30,6 +31,7 @@
   border: none;
   width: 100%;
   max-width: 100px;
+  background: transparent;
   &::before {
     position: absolute;
     content: '';

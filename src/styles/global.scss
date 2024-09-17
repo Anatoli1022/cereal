@@ -12,11 +12,16 @@ body {
   font-size: 18px;
   font-optical-sizing: auto;
   color: $color-black;
+  position: relative;
   background-color: $color-gray;
   text-transform: lowercase;
 
   @include md-down {
     font-size: 14px;
+  }
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
   }
 }
 

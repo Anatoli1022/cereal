@@ -9,11 +9,11 @@ const Header = () => {
     <header className={cx('header')}>
       <div className={cx('container', 'header-container')}>
         <nav className={cx('navigation')}>
-          <Link href='/' className={cx('link')}>
-            cereal
+          <Link to='/' className={cx('link')}>
+            home
           </Link>
-          <Link href='/' className={cx('link')}>
-            design
+          <Link to='/understanding' className={cx('link')}>
+            understanding
           </Link>
           <button type='button' className={cx('button')} aria-label='Button open menu'></button>
         </nav>
