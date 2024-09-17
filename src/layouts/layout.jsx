@@ -30,7 +30,7 @@ const Layout = () => {
 
     // Добавляем обработчик изменения размера
     window.addEventListener('resize', updateBodySize);
-
+    updateBodySize();
     // Убираем обработчик при размонтировании компонента
     return () => {
       window.removeEventListener('resize', updateBodySize);
