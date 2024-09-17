@@ -32,7 +32,7 @@
   outline: none;
   width: 575px;
   min-width: 100%;
-  background-color: $color-gray;
+  background: transparent;
   border-bottom: 1px solid $color-black;
   padding-bottom: 10px;
 }
@@ -44,6 +44,7 @@
   background-color: $color-gray;
   padding: 4px;
   top: 0;
+  background: transparent;
   right: 0px;
   font-family: 'Abhaya Libre';
   font-size: 20px;
@@ -84,8 +85,12 @@
 .link {
   margin-top: 6px;
   display: block;
-  border-bottom: 2px solid $color-black;
   color: $color-black;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    border-bottom: 2px solid $color-black;
+  }
 }
 .text {
   text-align: right;
