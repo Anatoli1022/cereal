@@ -29,7 +29,7 @@ const Layout = () => {
     updateBodySize();
 
     // Добавляем обработчик изменения размера
-    window.addEventListener('resize', updateBodySize);
+    window.addEventListener('onload', updateBodySize);
 
     // Убираем обработчик при размонтировании компонента
     // return () => {
