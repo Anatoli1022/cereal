@@ -27,14 +27,6 @@ const Layout = () => {
 
     // Устанавливаем начальный размер
     updateBodySize();
-
-    // Добавляем обработчик изменения размера
-    window.addEventListener('onload', updateBodySize);
-
-    // Убираем обработчик при размонтировании компонента
-    // return () => {
-    //   window.removeEventListener('resize', updateBodySize);
-    // };
   }, []);
 
   useEffect(() => {
