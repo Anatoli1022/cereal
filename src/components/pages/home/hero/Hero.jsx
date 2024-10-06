@@ -10,13 +10,11 @@ const Hero = () => {
       <div className={cx('container', 'hero-wrapper')}>
         <div className={cx('wrapper-text')}>
           <p className={cx('subtext-right')}>
-            DESIGN MASTERPIECES ABOUND: A DESK BY THE NOW-FABLED CUBAN-
-            <br />
-            BORN DESIGNER CLARA PORSET SITS NEAR A THICK WOOLLEN RUG.
+            DESIGN MASTERPIECES ABOUND: A DESK BY THE NOW-FABLED CUBAN- BORN DESIGNER CLARA PORSET SITS NEAR A THICK
+            WOOLLEN RUG.
           </p>
           <p>
             MADE BY THE FAMILY WHO WOVE FOR THE MEXICAN ARCHITECT LUÍS BARRAGÁN. her as I look around, seems as much{' '}
-            <br />
             like a gallery as a home. Stubbing her cigarette in an ashtray beneath
           </p>
           <div className={cx('wrapper-sub-text')}>

@@ -5,4 +5,9 @@
     max-height: 727px;
     max-width: 477px;
   }
+
+  @include sm-down {
+    max-height: 610px;
+    max-width: 300px;
+  }
 }

@@ -1,3 +1,5 @@
+@import '../../../styles/variables.scss';
+
 .header {
   padding-top: 26px;
 }
@@ -22,6 +24,12 @@
 
   &:nth-last-child(2) {
     margin-right: -110px;
+  }
+  @include md-down {
+    font-size: 20px;
+  }
+  @include sm-down {
+    font-size: 14px;
   }
 }
 

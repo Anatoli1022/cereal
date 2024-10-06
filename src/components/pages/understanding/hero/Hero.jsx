@@ -10,13 +10,11 @@ const Hero = () => {
       <div className={cx('container', 'hero-wrapper')}>
         <div className={cx('wrapper-text')}>
           <p className={cx('subtext-right')}>
-            DESIGN MASTERPIECES ABOUND: A DESK BY THE NOW-FABLED CUBAN-
-            <br />
-            BORN DESIGNER CLARA PORSET SITS NEAR A THICK WOOLLEN RUG.
+            DESIGN MASTERPIECES ABOUND: A DESK BY THE NOW-FABLED CUBAN-BORN DESIGNER CLARA PORSET SITS NEAR A THICK
+            WOOLLEN RUG.
           </p>
           <p>
-            MADE BY THE FAMILY WHO WOVE FOR THE MEXICAN ARCHITECT LUÍS BARRAGÁN. her as I look around, seems as much{' '}
-            <br />
+            MADE BY THE FAMILY WHO WOVE FOR THE MEXICAN ARCHITECT LUÍS BARRAGÁN. her as I look around, seems as much
             like a gallery as a home. Stubbing her cigarette in an ashtray beneath
           </p>
           <div className={cx('wrapper-sub-text')}>
@@ -32,7 +30,7 @@ const Hero = () => {
         </div>
         <h1 className={cx('title')}>Understanding</h1>
         <MotionSvg />
-        <div className={cx('wrapper-text')}>
+        <div className={cx('wrapper-end-text')}>
           <h3 className={cx('title-min')}>Casa Wabi</h3>
           <p className={cx('text-margin')}>
             This is Casa Wabi, an art foundation established by Mexican painter and sculptor Bosco Sodi and built by
@@ -48,7 +46,7 @@ const Hero = () => {
             Nearby communities and schools visit each week to experience the art and architecture. “I believe that art
             is a tool to better understand the universe,” says Sodi.
           </p>
-          <p>
+          <p className={cx('text-right')}>
             “And the better you understand the universe and your fellow human beings, the easier it is to improve
             things. The local communities are able to experience that which would otherwise be unavailable to them, and
             in turn, artists from across the world are able to alter their own perspectives by sharing a dialogue with

@@ -29,6 +29,10 @@
 
   &:last-child {
     margin-top: -232px;
+
+    @include sm-down {
+      margin-top: 0;
+    }
   }
   @include md-down {
     max-width: 482px;
