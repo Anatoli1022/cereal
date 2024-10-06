@@ -1,0 +1,8 @@
+@import '../../../styles/variables.scss';
+
+.svg {
+  @include md-down {
+    max-height: 727px;
+    max-width: 477px;
+  }
+}

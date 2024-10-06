@@ -1,3 +1,5 @@
+@import '../../../../styles/variables.scss';
+
 .hero-wrapper {
   position: relative;
 }
@@ -11,10 +13,13 @@
   z-index: 2;
   top: 40%;
   text-transform: lowercase;
+  @include md-down {
+    font-size: 64px;
+  }
 }
 .wrapper-text {
   margin-left: auto;
-  max-width: 922px;
+  max-width: 1854px;
 
   &:first-child {
     top: 30px;
@@ -25,6 +30,9 @@
   &:last-child {
     margin-top: -232px;
   }
+  @include md-down {
+    max-width: 961px;
+  }
 }
 
 .wrapper-sub-text {
@@ -32,11 +40,34 @@
   display: flex;
   justify-content: center;
   column-gap: 40px;
+  @include md-down {
+    justify-content: end;
+  }
+}
+
+.wrapper-end-text {
+  margin-left: auto;
+  max-width: 922px;
+  &:first-child {
+    top: 30px;
+    position: absolute;
+    right: 0;
+  }
+
+  &:last-child {
+    margin-top: -332px;
+  }
+  @include md-down {
+    max-width: 492px;
+  }
 }
 
 .subtext-right {
   margin-left: auto;
   max-width: 700px;
+  @include md-down {
+    max-width: 374px;
+  }
 }
 
 .subtitle {
@@ -48,6 +79,9 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
+  @include md-down {
+    font-size: 14px;
+  }
 }
 .text-margin {
   margin-top: 3px;
@@ -56,4 +90,9 @@
 .text-right {
   margin-left: auto;
   max-width: 760px;
+  @include md-down {
+    @include md-down {
+      max-width: 390px;
+    }
+  }
 }
