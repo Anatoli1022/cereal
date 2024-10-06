@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react';
+import classNames from 'classnames/bind';
+import styles from './MotionSvg.module.scss';
+const cx = classNames.bind(styles);
 import { motion } from 'framer-motion';
 
 const originalPath = `M928.62 1020.5C236.4 1020.5 353.85 454.1 1 94.3C1 733.06 950.61 650.22 928.62 2.49C258.39 740.54 626.85 949.37 928.62 1020.5Z`;
@@ -73,6 +76,7 @@ const MotionSvg = () => {
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
       xmlnsXlink='http://www.w3.org/1999/xlink'
+      className={cx('svg')}
     >
       <motion.path
         variants={pathVariants}
